@@ -1,0 +1,117 @@
+
+
+<!DOCTYPE html>
+    <html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link href="bai3.css" rel="stylesheet">
+      
+    </head>
+    
+    <body>
+        <div class="layout">
+            <header>
+                
+            </header>
+            <nav>
+                <div class="hi">
+                <a href="index.html.html">Bộ sưu tập</a>
+                <a href="bai3.html.html">Đăng kí thành viên</a>
+                <a href="bai2.html.html">Bán hàng</a>
+                </div>
+            </nav>
+    
+             <center>
+                <h2>Bán hàng</h2>
+                </center>
+                <hr>
+    <div class="bai3">
+        <div class="bai33">
+                <select name="price" id="filter">
+                        <option value="0">Chọn mức giá</option>
+                        <option value="1">Dưới 100</option>
+                        <option value="2">Từ 100 đến 500</option>
+                        <option value="3">Trên 500</option>
+            </select>
+        </div>
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <td><input type="checkbox" id="checkAll"></td>
+                            <th>Hàng hóa</th>
+                            <th>Đơn giá</th>
+                            <th>Số lượng</th>
+                            <th>Thành tiền</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><input type="checkbox" class="check"></td>
+                            <td>Iphone</td>
+                            <td>700</td>
+                            <td><input id="click" type="number" value="0" min="0" step="1" disabled></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" class="check"></td>
+                            <td>SamSung</td>
+                            <td>400</td>
+                            <td><input id="click" onclick="click1();" type="number" value="0" min="0" step="1" disabled></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" class="check"></td>
+                            <td>Nokia</td>
+                            <td>100</td>
+                            <td><input id="click" type="number" value="0" min="0" step="1" disabled></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" class="check"></td>
+                            <td>Sony Xperia</td>
+                            <td>450</td>
+                            <td><input id="click" type="number" value="0" min="0" step="1" disabled></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" class="check"></td>
+                            <td>Motorola</td>
+                            <td>180</td>
+                            <td><input id="click" type="number" value="0" min="0" step="1" disabled></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" class="check"></td>
+                            <td>Oppo</td>
+                            <td>600</td>
+                            <td><input id="click" type="number" value="0" min="0" step="1" disabled></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" class="check"></td>
+                            <td>Bphone</td>
+                            <td>90</td>
+                            <td><input id="click" type="number" value="0" min="0" step="1" disabled></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <th colspan="4">Tổng</th>
+                            <th id="tongtien"></th>
+                        </tr>
+                    </tfoot>
+                </table>
+                </div>
+            </div>
+    
+    </body>
+    <script src="bai3.css"></script>
+    </html>
+</body>
+
+</html>

@@ -1,0 +1,56 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    padding-bottom: 500px;
+
+}
+.layout{
+    width: 1400px;
+    height: 500px;
+    max-width: 1403px;
+    margin: 0 auto;
+}
+header{
+    background-image: url(img/Banner1-1.jpg);
+    background-size: 100% 100%;
+    max-width: 100%;
+    height: 55%;
+}
+nav{
+    background-color: lightblue;
+    text-align: center;
+    height: 34px;
+    padding-top: 17px;
+
+}
+
+.hi a{
+    border-style: hidden;
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 40px;
+    padding-right: 50px;
+    font-size: larger;
+}
+.hi a:hover{
+    background-color: white;
+    color: lightblue;
+    box-shadow: 1px 2px 9px 9px lightcyan;
+
+}
+.bai3{
+    margin-left: 50px;
+    margin-left: 500px;
+}
+.bai33{
+    margin-left: 140px;
+    margin-bottom: 20px;
+}
+h2{
+    color: lightskyblue;
+    box-shadow: 1px 2px 7px 7px lightblue;
+    width: 120px;
+}

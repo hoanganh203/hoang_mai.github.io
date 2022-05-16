@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assinment</title>
+    <link href="bai2.css" rel="stylesheet">
+    <script type="text/javascript" src="bai2.js">
+
+    </script>
+</head>
+
+<body>
+    <div class="layout">
+        <header>
+
+        </header>
+        <nav>
+            <div class="hi">
+                <a href="index.html.html">Bộ sưu tập</a>
+                <a href="bai3.html.html">Đăng kí thành viên</a>
+                <a href="bai2.html.html">Bán hàng</a>
+            </div>
+        </nav>
+    <div class="bai2">
+
+    <div class="font1">
+        <h1>Đăng Kí Thành viên</h1>
+    </div>
+        <form name="Assinment" id="Assinment">
+            <label>Mã Sinh Viên</label> <br>
+            <div class="font2">
+
+                <input type="text" name="masv" id="masv" placeholder="Nhập mã sv VD:PH00000" /><br>
+            </div>
+            <label>Họ và Tên</label> <br>
+            <div class="font3">
+                <input type="text" name="hoten" id="hoten" placeholder="Nhập tên SV"><br>
+            </div>
+            <label>Email</label> <br>
+            <div class="font4">
+                <input type="text" name="email" id="email" placeholder="@gmail.com"><br>
+            </div>
+            <label class="lable">Giới tính</label>
+            <div class="font5">
+
+                <fieldset id="check">
+                    <input type="radio"  name="gioitinh"  value="Nam" >Nam
+                    <input type="radio"   name="gioitinh"  value="Nữ" >Nữ
+                    <input type="radio"   name="gioitinh"  value="Khác" >Khác
+
+            </div>
+            </fieldset>
+            <label class="lable">Sở thích</label>
+            <div class="font6">
+
+                <fieldset id="checksothich">
+
+                    <input type="checkbox" name="sothich" value="Đọc Sách">Đọc Sách
+                    <input type="checkbox" name="sothich" value="Du Lich">Du lịch
+                    <input type="checkbox" name="sothich" value="Âm Nhạc">Âm Nhạc
+                    <input type="checkbox" name="sothich" value="Ẩm Thực">Ẩm thực
+                    <input type="checkbox" name="sothich" value="Khác">Khác
+
+                </fieldset>
+            </div>
+            <label class="lable">Quốc Tịch</label><br><br>
+            <div class="font7">
+                <select name="quoctich" id="quoctich">
+                    <option value="chọn quốc tịch" selected="selected">Chọn quốc tịch</option>
+                    <option value="Việt Nam">Việt Nam</option>
+                    <option value="Hoa kì">Hoa Kì</option>
+                    <option value="Anh">Anh</option>
+                    <option value="Pháp">Pháp</option>
+                </select><br><br>
+
+            </div>
+            <label>Ghi chú</label><br>
+            <div class="font8">
+                <textarea name="Ghichu" id="Ghichu" cols="30" rows="2" placeholder="Ít nhất 10 kí tự"></textarea>
+                <br>
+                <button type="button" value="đăng kí" onclick="kiemtra();">Đăng kí</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+</body>
+
+</html>

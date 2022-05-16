@@ -1,0 +1,131 @@
+body{
+    padding: 0px;
+    margin: 0px;
+
+}
+.layout{
+    max-width:1400px;
+    height: 500px;
+    margin: 0 auto;
+    margin-bottom: 900px;
+
+}
+.layout header{
+    background-image: url(img/Banner1-1.jpg);
+    background-size: 100% 100%;
+    max-width: 100%;
+    height: 55%;
+}
+nav{
+    background-color: lightblue;
+    text-align: center;
+    height: 34px;
+    padding-top: 17px;
+
+}
+
+.hi a{
+    border-style: hidden;
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 40px;
+    padding-right: 50px;
+    font-size: larger;
+
+}
+.hi a:hover{
+    background-color: white;
+    color: lightblue;
+    box-shadow: 1px 2px 9px 9px lightcyan;
+
+}
+
+.anh1{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: 200px;
+}   
+.font1{
+    margin-top: -150px;
+    margin-left: 330px;
+    box-shadow: 1px 2px 9px 9px lightcyan;
+    width: 280px;
+}
+.font1 h1{
+    color: lightskyblue;
+
+}
+.font2>input{
+    margin-top: 3px;
+    height: 30px;
+    width: 500px;
+    margin-left: 200px;
+}
+.font3>input{
+    margin-top: 3px;
+    height: 30px;
+    width: 500px;
+    margin-left: 200px;
+}
+.font4>input{
+    margin-top: 3px;
+    height: 30px;
+    width: 500px;
+    margin-left: 200px;
+}
+label{
+    margin-left: 200px;
+}
+fieldset{
+    margin-left: 200px;
+    width: 480px;
+    margin-bottom: 10px;
+}
+.font5>input{
+    margin-top: 3px;
+    height: 20px;
+    width: 50px;
+}
+.font6>input{
+    margin-top: 3px;
+    height: 30px;
+}
+.font7>select{
+    margin-top: -40px;
+    height: 20px;
+    margin-left: 200px;
+}
+.font8{
+    margin-top: 3px;
+    height: 30px;
+    width: 500px;
+    margin-left: 200px;
+}
+textarea{
+    width: 500px;
+}
+input:hover{
+    background-color: azure;
+    box-shadow: 0.5px 0.5px 2px 2px darkcyan;
+}
+textarea:hover{
+    background-color: azure;
+    box-shadow: 0.5px 0.5px 2px 2px darkcyan;
+}
+button:hover{
+    background-color: azure;
+    box-shadow: 0.5px 0.5px 2px 2px orangered;
+}
+.bai2{
+    margin-top: 40px;
+    border-style: ridge;
+    width: 900px;
+    margin-left: 200px;
+    height: 400px;
+    padding-top: 170px;
+    box-shadow: 1px 2px 9px 9px lightblue;
+    padding-bottom: 20px;
+}
